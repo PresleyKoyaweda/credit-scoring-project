@@ -23,12 +23,12 @@ if page == "Aperçu Général":
     ### 🚀 **Étapes du Projet**
     1. Exploration des Données.
     2. Discrétisation des Variables.
-    3. Analyse des Correspondances Multiples (ACM)
-    4. Calcul du V de Cramer.
-    5. Modélisation
+    3. Analyse des Correspondances Multiples (ACM)🧩
+    4. Calcul du V de Cramer📏.
+    5. Modélisation 📈
     6. Mise en production
          
-    ### 📊 **Résultats**
+    ### 📊 **Résultats 🏆**
     Les résultats de notre analyse montrent que l'Analyse Discriminante Linéaire (LDA) avec des caractéristiques polynomiales offre des performances solides parmi les modèles testés. Voici les mesures de qualité obtenues :
 
     - Précision (Precision) : 86.25%
@@ -58,7 +58,7 @@ elif page == "Tester mon modele de Scoring":
     st.title("Scoring de crédit bancaire")
 
     st.write("""
-    Testez ce modèle en remplissant le formulaire ci-dessous pour obtenir une évaluation de la solvabilité.
+    ##### Testez ce modèle en remplissant le formulaire ci-dessous pour obtenir une évaluation de la solvabilité 🧪.
 
     ###### Veuillez renseigner tous les champs
     """)
