@@ -10,7 +10,7 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Aperçu Général", "Tester mon modele de Scoring"])
 
 if page == "Aperçu Général":
-    st.title("Scoring de crédit bancaire")
+    st.title("Scoring de crédit bancaire 💳")
 
     st.write("""
     ---
