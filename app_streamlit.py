@@ -51,7 +51,7 @@ if page == "Aperçu Général":
         #st.image("plan_factoriel.png", caption="Plan Factoriel des Individus")
     
     #with col2:
-        #st.image("v_de_cramer.png", caption="Pouvoir Discriminant des Variables (V de Cramer)")
+        #st.image("V_de_Cramer.png", caption="Pouvoir Discriminant des Variables (V de Cramer)")
         #st.image("precision_recall_curve.png", caption="Precision and Recall Curve")
 
 elif page == "Tester mon modele de Scoring":
