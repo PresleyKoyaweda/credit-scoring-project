@@ -46,13 +46,13 @@ if page == "Aperçu Général":
     # Display images in a 2x2 grid
     col1, col2 = st.columns(2)
 
-    #with col1:
-        #st.image("learning_curve.png", caption="Learning Curve")
-        #st.image("plan_factoriel.png", caption="Plan Factoriel des Individus")
+    with col1:
+        st.image("learning_curve.png", caption="Learning Curve")
+        st.image("plan_factoriel.png", caption="Plan Factoriel des Individus")
     
-    #with col2:
-        #st.image("V_de_Cramer.png", caption="Pouvoir Discriminant des Variables (V de Cramer)")
-        #st.image("precision_recall_curve.png", caption="Precision and Recall Curve")
+    with col2:
+        st.image("V_de_Cramer.png", caption="Pouvoir Discriminant des Variables (V de Cramer)")
+        st.image("precision_recall_curve.png", caption="Precision and Recall Curve")
 
 elif page == "Tester mon modele de Scoring":
     st.title("Scoring de crédit bancaire")
